@@ -1,0 +1,31 @@
+{
+  "name": "logic-reviews",
+  "version": "1.0.0",
+  "description": "A website about reviewing your favorite movies!",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldevv/logic-reviews.git"
+  },
+  "author": "LeoDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ldevv/logic-reviews/issues"
+  },
+  "homepage": "https://github.com/ldevv/logic-reviews#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "ddbw": "^1.4.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "formidable": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

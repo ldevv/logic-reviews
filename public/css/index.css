@@ -1,0 +1,12 @@
+.section { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: -56px;
+}
+
+.section > * {
+    margin-top: 56px;
+    margin-bottom: -56px;
+}
