@@ -43,7 +43,7 @@
                         <% for (var i = 0; i < movies.length; i++) { %>
                             <div class="col-sm-3">
                                 <a href="/movie/<%= movies[i].data.id %>" style="color: inherit; text-decoration: none;">
-                                    <div class="card border-info mb-3">
+                                    <div class="card border-danger mb-3">
                                         <img class="card-img" src="/images/<%= movies[i].data.image %>" width="128" height="448" alt="<%= movies[i].data.name %> Review">
                                         <div class="card-body">
                                             <h5 class="card-title"><%= movies[i].data.name %></h5>
